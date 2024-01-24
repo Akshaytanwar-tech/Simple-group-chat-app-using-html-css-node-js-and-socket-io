@@ -1,0 +1,136 @@
+body {
+    background: rgb(4, 30, 83);
+}
+
+.container {
+    float: right;
+    width: 70%;
+    text-align: center;
+    background: fixed;
+    background-color: rgb(235, 233, 233);
+    min-height: fit-content;
+}
+
+.Users {
+    float: left;
+    width: 30%;
+    color: white;
+    border-right: 10px solid rgb(226, 232, 248);
+    border-right-style: double;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#Users-Online {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+#Users-list {
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background: rgb(135, 135, 230);
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.header {
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    border: 0px solid rgb(226, 220, 220);
+    border-radius: 10px;
+}
+
+.chat-container {
+    border: 1px solid black;
+    max-width: 100%;
+    height: 75vh;
+    overflow-y: auto;
+    scroll-behavior: auto;
+}
+
+.chat-container::-webkit-scrollbar {
+    display: none;
+}
+
+.message {
+    margin: 20px;
+    width: auto;
+    max-width: 45%;
+    padding: 10px;
+    border: 0px solid blue;
+    border-radius: 25px;
+}
+
+
+.left {
+    float: left;
+    clear: both;
+    background: rgb(255, 255, 255);
+}
+
+.right {
+    float: right;
+    clear: both;
+    background: blue;
+    color: white;
+}
+
+.chat {
+    float: inline-start;
+    text-transform: capitalize;
+}
+
+.join {
+    text-align: center;
+    clear: both;
+    color: green;
+}
+
+.leave {
+    text-align: center;
+    clear: both;
+    color: red;
+}
+
+.message-container {
+    margin-top: 10px;
+    margin-bottom: 23px;
+    justify-content: center;
+}
+
+#textinp {
+    width: 89%;
+    height: 35px;
+}
+
+#btn {
+    padding: 5px;
+}
+
+.Users-name {
+    padding: 15px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: cursive;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.individual-container {
+    float: right;
+    width: 70%;
+    text-align: center;
+    background: fixed;
+    background-color: rgb(235, 233, 233);
+    min-height: fit-content;
+}
